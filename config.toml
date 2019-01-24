@@ -1,5 +1,5 @@
-#baseURL = "https://www.mbnog.ca"
-baseURL = "/"
+baseURL = "https://www.mbnog.ca"
+#baseURL = "/"
 languageCode = "en-us"
 title = "MBNOG"
 

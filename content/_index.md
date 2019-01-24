@@ -1,6 +1,6 @@
 ## New Backend
 
-While this site is now being generated with hugo instead of jekyll, simplifying things somewhat.
+This site is now being generated with hugo instead of jekyll, simplifying things somewhat.
 
 ### Looking Glass
 

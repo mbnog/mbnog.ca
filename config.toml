@@ -1,0 +1,134 @@
+#baseURL = "https://www.mbnog.ca"
+baseURL = "/"
+languageCode = "en-us"
+title = "MBNOG"
+
+DefaultContentLanguage = "en"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "The Manitoba Network Operator Group"
+  logo = "img/mbnog-logo.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg" 
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+[[Params.bigimg]]
+  src = "img/hexagon.jpg"
+  desc = "Hexagon"
+
+[Author]
+  name = "MBNOG"
+  website = "mbnog.ca"
+#  email = "contact@mbnog.ca"
+#  facebook = "username"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "mbnog"
+#  gitlab = "username"
+#  bitbucket = "username"
+  twitter = "ManitobaNOG"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+#  500px = "username"
+
+[[menu.main]]
+    name = "Resources"
+    identifier = "resources"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    parent = "resources"
+    name = "Looking Glass"
+    url = "page/looking-glass"
+    weight = 1
+
+[[menu.main]]
+    parent = "resources"
+    name = "Mailing Lists"
+    url = "page/lists"
+    weight = 2
+
+[[menu.main]]
+    parent = "resources"
+    name = "Slack"
+    url = "page/slack"
+    weight = 3
+
+[[menu.main]]
+    parent = "resources"
+    name = "Presentations"
+    url = "page/presentations"
+    weight = 4
+
+[[menu.main]]
+    parent = "resources"
+    name = "Transit Nets"
+    url = "page/transit-network-resources"
+    weight = 5
+
+[[menu.main]]
+    parent = "resources"
+    name = "Stub Nets"
+    url = "page/stub-network-resources"
+    weight = 6
+
+[[menu.main]]
+    name = "About Us"
+    url = "page/aboutus/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
+
+[[menu.main]]
+    name = "Sponsors"
+    url = "page/sponsors"
+    weight = 10
+

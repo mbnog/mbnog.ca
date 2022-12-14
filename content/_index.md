@@ -1,7 +1,3 @@
-## New Backend
+### NEW Looking Glass
 
-This site is now being generated with hugo instead of jekyll, simplifying things somewhat.
-
-### Looking Glass
-
-The MBNOG looking glass is available [here](https://lg.mbnog.net/) as always.
+The New MBNOG looking glass is available [here!](https://lg.mbnog.ca/).

@@ -1,17 +1,11 @@
 baseURL = "https://www.mbnog.ca"
 #baseURL = "/"
-languageCode = "en-us"
+locale = "en-US"
 title = "MBNOG"
 
 DefaultContentLanguage = "en"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
@@ -26,10 +20,11 @@ pygmentsCodefencesGuessSyntax = true
   comments = false
   readingTime = true
   wordCount = true
-  useHLJS = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+  colorScheme = "auto"
+  mainSections = ["post"]
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -44,7 +39,7 @@ pygmentsCodefencesGuessSyntax = true
   src = "img/hexagon.jpg"
   desc = "Hexagon"
 
-[Author]
+[Params.author]
   name = "MBNOG"
   website = "mbnog.ca"
 #  email = "contact@mbnog.ca"
@@ -69,6 +64,26 @@ pygmentsCodefencesGuessSyntax = true
 #  paypal = "username"
 #  telegram = "username"
 #  500px = "username"
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "keywords"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 [[menu.main]]
     name = "Resources"
